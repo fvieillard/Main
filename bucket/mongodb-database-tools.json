@@ -17,6 +17,16 @@
     },
     "extract_dir": "MongoDB\\Tools\\100",
     "env_add_path": "bin",
+    "bin": [
+        "bin\\bsondump.exe",
+        "bin\\mongodump.exe",
+        "bin\\mongoexport.exe",
+        "bin\\mongofiles.exe",
+        "bin\\mongoimport.exe",
+        "bin\\mongorestore.exe",
+        "bin\\mongostat.exe",
+        "bin\\mongotop.exe"
+    ],
     "checkver": {
         "url": "https://s3.amazonaws.com/downloads.mongodb.org/tools/db/release.json",
         "jsonpath": "$.versions[0].version"
